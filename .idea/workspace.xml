@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5b9b2d0-b123-4404-ad2d-27c0f073c98c" name="Default Changelist" comment="" />
+    <list default="true" id="c5b9b2d0-b123-4404-ad2d-27c0f073c98c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/config/keys.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/keys.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +25,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/front-mern-stage-wars/src/components/auth/Register.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
@@ -40,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="47" column="34" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
+            <state relative-caret-position="408">
+              <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -79,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/keys.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="101" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="101" />
+            <state relative-caret-position="68">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -111,6 +114,7 @@
       <find>ITEM</find>
       <find>req.body</find>
       <find>name</find>
+      <find>secr</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -138,7 +142,6 @@
         <option value="$PROJECT_DIR$/front-mern-stage-wars/src/components/auth/Login.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/routes/api/users.js" />
-        <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/models/Offer.js" />
         <option value="$PROJECT_DIR$/routes/api/offers.js" />
         <option value="$PROJECT_DIR$/front-mern-stage-wars/src/components/dashboard/Offer.js" />
@@ -151,13 +154,14 @@
         <option value="$PROJECT_DIR$/front-mern-stage-wars/src/index.js" />
         <option value="$PROJECT_DIR$/front-mern-stage-wars/src/components/dashboard/OffersList.js" />
         <option value="$PROJECT_DIR$/front-mern-stage-wars/src/components/dashboard/Dashboard.js" />
-        <option value="$PROJECT_DIR$/config/keys.js" />
         <option value="$PROJECT_DIR$/front-mern-stage-wars/package.json" />
         <option value="$PROJECT_DIR$/front-mern-stage-wars/src/components/auth/Register.js" />
+        <option value="$PROJECT_DIR$/config/keys.js" />
+        <option value="$PROJECT_DIR$/server.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="952" />
     <option name="width" value="977" />
     <option name="height" value="1088" />
@@ -182,47 +186,7 @@
             <path>
               <item name="back-mern-stage-wars" type="b2602c69:ProjectViewProjectNode" />
               <item name="back-mern-stage-wars" type="462c0819:PsiDirectoryNode" />
-              <item name="front-mern-stage-wars" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="back-mern-stage-wars" type="b2602c69:ProjectViewProjectNode" />
-              <item name="back-mern-stage-wars" type="462c0819:PsiDirectoryNode" />
-              <item name="front-mern-stage-wars" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="back-mern-stage-wars" type="b2602c69:ProjectViewProjectNode" />
-              <item name="back-mern-stage-wars" type="462c0819:PsiDirectoryNode" />
-              <item name="front-mern-stage-wars" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="back-mern-stage-wars" type="b2602c69:ProjectViewProjectNode" />
-              <item name="back-mern-stage-wars" type="462c0819:PsiDirectoryNode" />
-              <item name="front-mern-stage-wars" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="back-mern-stage-wars" type="b2602c69:ProjectViewProjectNode" />
-              <item name="back-mern-stage-wars" type="462c0819:PsiDirectoryNode" />
-              <item name="front-mern-stage-wars" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="back-mern-stage-wars" type="b2602c69:ProjectViewProjectNode" />
-              <item name="back-mern-stage-wars" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="back-mern-stage-wars" type="b2602c69:ProjectViewProjectNode" />
-              <item name="back-mern-stage-wars" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -271,10 +235,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <frame x="762" y="0" width="781" height="870" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17315437" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35783634" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -522,20 +486,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/keys.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="101" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="47" column="34" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front-mern-stage-wars/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -554,6 +504,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="126" column="60" selection-start-line="126" selection-start-column="60" selection-end-line="126" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/keys.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
         </state>
       </provider>
     </entry>

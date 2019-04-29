@@ -124,14 +124,14 @@ return (
                   })}
                 />
                 <label htmlFor="password">Password</label>
-                <span className="red-text">{errors.password}</span>
+                <span className="red-text">{errors.password2}</span>
               </div>
 
               <div className="input-field col s12">
                 <input
                   onChange={this.onChange}
-                  value={this.state.password}
-                  error={errors.password}
+                  value={this.state.password2}
+                  error={errors.password2}
                   id="password2"
                   type="password"
                   className={classnames("", {

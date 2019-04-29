@@ -63,6 +63,8 @@ return (
                 Already have an account? <Link to="/login">Log in</Link>
               </p>
             </div>
+
+
             <form noValidate onSubmit={this.onSubmit}>
               <div className="input-field col s12">
                 <input
@@ -108,6 +110,8 @@ return (
                 <label htmlFor="email">Email</label>
                 <span className="red-text">{errors.email}</span>
               </div>
+
+
               <div className="input-field col s12">
                 <input
                   onChange={this.onChange}
@@ -122,11 +126,12 @@ return (
                 <label htmlFor="password">Password</label>
                 <span className="red-text">{errors.password}</span>
               </div>
+
               <div className="input-field col s12">
                 <input
                   onChange={this.onChange}
-                  value={this.state.password2}
-                  error={errors.password2}
+                  value={this.state.password}
+                  error={errors.password}
                   id="password2"
                   type="password"
                   className={classnames("", {
@@ -136,6 +141,7 @@ return (
                 <label htmlFor="password2">Confirm Password</label>
                 <span className="red-text">{errors.password2}</span>
               </div>
+
               <div className="col s12" style={{ paddingLeft: "11.250px" }}>
                 <button
                   style={{

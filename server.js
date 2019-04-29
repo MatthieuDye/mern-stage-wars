@@ -2,9 +2,13 @@ const express = require("express");
 const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 const passport = require("passport");
+
 const users = require("./routes/api/users");
+const offers = require("./routes/api/offers");
+
 const app = express();
 const path = require('path')
+
 // Bodyparser middleware
 app.use(
   bodyParser.urlencoded({
@@ -12,6 +16,7 @@ app.use(
   })
 );
 app.use(bodyParser.json());
+
 // DB Config
 const db = require("./config/keys").mongoURI;
 // Connect to MongoDB
@@ -22,12 +27,16 @@ mongoose
   )
   .then(() => console.log("MongoDB successfully connected"))
   .catch(err => console.log(err));
+
 // Passport middleware
 app.use(passport.initialize());
+
 // Passport config
 require("./config/passport")(passport);
+
 // Routes
 app.use("/api/users", users);
+app.use("/api/offers", offers);
 
 if (process.env.NODE_ENV === 'production') {
     app.use(express.static('front-mern-stage-wars/build'));

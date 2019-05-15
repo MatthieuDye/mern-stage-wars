@@ -7,7 +7,7 @@ const keys = require('./config/keys.js');
 
 
 require('./models/User.js');
-require('./services/passport.js');
+require('./config/passport.js');
 
 const users = require("./routes/api/users");
 const offers = require("./routes/api/offers");

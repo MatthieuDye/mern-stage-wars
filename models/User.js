@@ -25,7 +25,6 @@ const UserSchema = new Schema({
 
   googleID: {
     type : String,
-    required: false
   }
 });
 module.exports = User = mongoose.model("users", UserSchema);
